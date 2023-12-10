@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 
 fp='C:\\Users\\samar\\OneDrive\\Documents\\GitHub\\OIBSIP\\Car_Price_Prediction\\Car_data.csv'
 # Load your dataset 
-data = pd.read_csv('Car_data.csv')
+data = pd.read_csv(fp)
 
 # Display the first few rows of the dataset to understand its structure
 print(data.head())
