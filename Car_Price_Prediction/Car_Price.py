@@ -8,6 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
+fp='C:\\Users\\samar\\OneDrive\\Documents\\GitHub\\OIBSIP\\Car_Price_Prediction\\Car_data.csv'
 # Load your dataset 
 data = pd.read_csv('Car_data.csv')
 
